@@ -5,7 +5,7 @@
 - [fork]()
 - [fork1]()
 
-######Actividad
+###### Actividad
 
 Realiza un programa en C que cree un proceso. El programa definirá una variable
 entera y le dará el valor 10. El proceso padre incrementará el valor en 4 y el hijo
