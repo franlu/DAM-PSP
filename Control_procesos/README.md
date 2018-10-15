@@ -1,9 +1,9 @@
 ## Control de proceso en GNU/Linux
 
 ### Creación y ejecución
-- [execl]()
-- [fork]()
-- [fork1]()
+- [execl](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/execl.c)
+- [fork](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fork.c)
+- [fork1](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fork1.c)
 
 ###### Actividad
 
