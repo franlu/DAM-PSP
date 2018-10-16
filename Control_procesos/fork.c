@@ -2,9 +2,9 @@
 * Ejemplo de uso de la función fork
 * El proceso actual (padre) crea un proceso (hijo)
 */
+#include <stdlib.h> // sudo apt-get install libc6-dev
+#include <unistd.h>
 #include <stdio.h>
-#include <stdlib.h>
-
 
 int main(){
 
@@ -20,9 +20,9 @@ int main(){
 		printf("Mi PID es: %d, y mi proceso padre es: %d\n\n", getpid(), getppid());
 	}else{ // padre
 		hijo_pid = wait(NULL); // Espera a la finalización del proceso hijo, el padre se bloquea
-		printf("Soy el proceso padre... \n\t
-            Mi PID es %d, el PID de mi padre es: %d. \n\t
-            Mi hijo: %d terminó.\n",
+		printf("Soy el proceso padre... \n\t"
+            "Mi PID es %d, el PID de mi padre es: %d. \n\t"
+            "Mi hijo: %d terminó.\n",
             getpid(), getppid(), pid);
 		printf("El id del padre es: %d\n", getpid());
 	}
