@@ -2,6 +2,12 @@
 
 ### Creación y ejecución
 - [execl](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/execl.c)
+
+###### Actividad
+
+Realiza un programa en C para ver el PID del proceso actual y el proceso padre.
+Utiliza las funciones _getpid y getppid_.
+
 - [fork](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fork.c)
 - [fork1](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fork1.c)
 
