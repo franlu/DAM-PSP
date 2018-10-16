@@ -3,8 +3,9 @@
 * El proceso actual (abuelo) crea un proceso (hijo) y
 * el proceso hijo del hijo (nieto)
 */
+#include <stdlib.h> // sudo apt-get install libc6-dev
+#include <unistd.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 
 int main(){
@@ -39,8 +40,8 @@ int main(){
 	}
   else { // proceso padre
 		hijo_pid = wait(NULL);
-		printf("Soy el proceso ABUELO... \n\t
-            Mi PID es %d, mi HIJO: %d terminó. \n\t",
+		printf("Soy el proceso ABUELO... \n\t"
+            "Mi PID es %d, mi HIJO: %d terminó. \n\t",
             getpid(), pid);
 	}
 
