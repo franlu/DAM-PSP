@@ -18,5 +18,5 @@ entera y le dará el valor 10. El proceso padre incrementará el valor en 4 y el
 restará 4. Se deben mostrar los valores en pantalla.
 
 ### Comunicación entre procesos
-- [ficheros]()
-- [pipe]()
+- [ficheros](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fichero.c)
+- [pipe](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/pipe.c)
