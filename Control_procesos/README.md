@@ -29,3 +29,8 @@ Realiza un programa en C en el que el proceso hijo envia información al proceso
 - Pipe con nombre (FIFO)
   - [Lectura](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fifocrea.c)
   - [Escritura](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fifoescribe.c)
+
+### Sincronización
+
+- [Envio de señales](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/signal.c)
+-
