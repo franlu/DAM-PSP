@@ -20,3 +20,8 @@ restará 4. Se deben mostrar los valores en pantalla.
 ### Comunicación entre procesos
 - [ficheros](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fichero.c)
 - [pipe](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/pipe.c)
+- [pipe](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/pipepadrehijo.c) Comunicación padre a hijo
+
+- Pipe con nombre (FIFO)
+  - [Lectura](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fifocrea.c)
+  - [Escritura](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fifoescribe.c)
