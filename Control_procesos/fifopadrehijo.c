@@ -26,7 +26,6 @@ int main(){
 		default: 
 			close (fd[0]);
 			write (fd[1],saludoPadre, strlen(saludoPadre));
-			read (fd[0],buffer,sizeof(buffer));
 			printf("el padre envia un mensaje al pipe %s\n",buffer);
 			wait(NULL);
 			break;
