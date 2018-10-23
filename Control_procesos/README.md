@@ -22,6 +22,10 @@ restará 4. Se deben mostrar los valores en pantalla.
 - [pipe](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/pipe.c)
 - [pipe](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/pipepadrehijo.c) Comunicación padre a hijo
 
+###### Actividad
+
+Realiza un programa en C en el que el proceso hijo envia información al proceso padre.
+
 - Pipe con nombre (FIFO)
   - [Lectura](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fifocrea.c)
   - [Escritura](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/fifoescribe.c)
