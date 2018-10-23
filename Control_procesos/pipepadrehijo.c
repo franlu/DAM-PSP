@@ -21,13 +21,13 @@ int main(){
 		case 0: 
 			close (fd[1]);
 			read (fd[0],buffer,sizeof(buffer));
-			printf("el hijo recibe un mensaje del pipe %s \n",saludoPadre);
+			printf("el hijo recibe un mensaje del pipe %s \n", buffer);
 			break;
 		default: 
 			close (fd[0]);
 			write (fd[1],saludoPadre, strlen(saludoPadre));
-			printf("el padre envia un mensaje al pipe %s\n",buffer);
-			wait(NULL);
+			printf("el padre envia un mensaje al pipe...\n");
+			wait(NULL); // espero al proceso hijo
 			break;
 	}
 }
