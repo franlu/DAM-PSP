@@ -19,11 +19,12 @@ public class ejecutarApp {
 	 */
 	public static void main(String[] args) throws IOException {
 		
-		final String orden[] = {"ls", "/"};
-		Process proceso = new ProcessBuilder(orden).start();
+		// LINUX
+		// final String orden[] = {"ls", "/"};
+		// Process proceso = new ProcessBuilder(orden).start();
 
 		// WINDOWS
-		//Process proceso = new ProcessBuilder("NOTEPAD").start();
+		// Process proceso = new ProcessBuilder("NOTEPAD").start();
 	}
 
 }
