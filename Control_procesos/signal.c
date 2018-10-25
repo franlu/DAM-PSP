@@ -24,6 +24,7 @@ int main() {
       exit(-1);
 
     case 0: // Hijo
+      // tratamiento de la señal recibida
       signal(SIGUSR1, manejador_hijo);
       while(1){
         sleep(1);
@@ -33,6 +34,7 @@ int main() {
       break;
 
     default:// Padre
+      // tratamiento de la señal recibida
       signal(SIGUSR1, manejador_padre);
       while(1){
         pause(); // esperando señal del hijo
