@@ -33,4 +33,3 @@ Realiza un programa en C en el que el proceso hijo envia información al proceso
 ### Sincronización
 
 - [Envio de señales](https://github.com/franlu/DAM-PSP/blob/master/Control_procesos/signal.c)
--
