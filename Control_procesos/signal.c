@@ -24,7 +24,7 @@ int main() {
       exit(-1);
 
     case 0: // Hijo
-      signal(SIGUSR1, gestion_hijo);
+      signal(SIGUSR1, manejador_hijo);
       while(1){
         sleep(1);
         kill(pid_padre, SIGUSR1); // Envio de señal al PADRE
