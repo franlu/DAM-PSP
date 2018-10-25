@@ -9,7 +9,7 @@ int main(void){
 
   fp=open("FIFO",1);
 
-  if (p==-1){
+  if (fp==-1){
     printf("ERROR al abrir el FIFO...)\n", );
     exit(0);
   }
