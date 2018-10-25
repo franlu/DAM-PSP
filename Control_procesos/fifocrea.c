@@ -8,18 +8,18 @@ int main(void){
 
   int fp;
   int p, bytesleidos;
-  char saludo[] = "Un saludo!!!\n", buffer[10];
+  char buffer[10];
 
-  p=mkfifo("FIFO", S_IFIFO|0666); //permiso de lectura y escritura
+  p = mkfifo("FIFO", S_IFIFO|0666); //permiso de lectura y escritura
 
-  if (p==-1){
-    printf("ERROR al crear el FIFO...)\n", );
-    exit(0);
+  if (p == -1){
+    printf("ERROR al crear el FIFO...\n");
+    exit(-1);
   }
 
   while(1){
     fp=open("FIFO",0);
-    bytesleidos= read(fp,buffer,1);
+    bytesleidos = read(fp,buffer,1);
     printf("Recogindo datos del pipe...");
     while(bytesleidos != 0){
       printf("%1c", buffer[0]);
