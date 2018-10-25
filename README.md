@@ -1,15 +1,15 @@
 # DAM-PSP
-Materiales para el m贸dulo Programaci贸n de Servicios y Procesos
+Materiales para el m骴ulo Programaci髇 de Servicios y Procesos
 
 
 * [Tutorial de C](https://www.learn-c.org/)
-* [Ejercicios](https://github.com/franlu/DAM-PSP/tree/master/EjerciciosC) de iniciaci贸n a la Programaci贸n en el lenguaje C
+* [Ejercicios](https://github.com/franlu/DAM-PSP/tree/master/EjerciciosC) de iniciaci髇 a la Programaci髇 en el lenguaje C
 * [Control de procesos con C](https://github.com/franlu/DAM-PSP/tree/master/Control_procesos)
 * [Procesos con Java](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java)
 
 
 # Licencia
 
-[Atribuci贸n-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
+[Atribuci髇-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 
 ![CC BY-SA](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-sa.png)
