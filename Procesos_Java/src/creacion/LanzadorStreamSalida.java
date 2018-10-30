@@ -15,7 +15,7 @@ public class Lanzador {
 	        pb.start();
 	        
 	        /*try {
-	        	InputStream is = p.getInputStream();
+	        	InputStream is = pb.getInputStream();
 	        	int c;
 	        	
 	        	while ((c = is.read()) != -1)
