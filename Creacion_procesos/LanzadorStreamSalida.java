@@ -1,21 +1,23 @@
 package Creacion_procesos;
 
+import java.io.InputStream;
+
 public class LanzadorStreamSalida {
 
 	public void lanzarSumador(Integer n1, Integer n2){
 	    String clase="com.creacion.Sumador";
-	    ProcessBuilder pb;
+	    Process p;
 	    try {
-	        pb = new ProcessBuilder(
+	        p = new ProcessBuilder(
                     "java",
                     clase,
                     n1.toString(),
                     n2.toString()
-            );
-	        pb.start();
+            ).start();
+	        //pb.start();
 	        
-	        /*try {
-	        	InputStream is = pb.getInputStream();
+	        try {
+	        	InputStream is = p.getInputStream();
 	        	int c;
 	        	
 	        	while ((c = is.read()) != -1)
@@ -33,14 +35,12 @@ public class LanzadorStreamSalida {
 		    int valorSalida;
 		    
 		    try {
-		    	valorSalida = pb.waitFor();
-		    	System.out.print("Valor de salida: " + valorSalida);
+		    	valorSalida = p.waitFor();
+		    	System.out.println("Valor de salida: " + valorSalida);
 		    }catch (Exception e) {
 		        e.printStackTrace();
 		    }
 		    
-		    */
-	        
 	    } catch (Exception e) {
 	        e.printStackTrace();
 	    }
