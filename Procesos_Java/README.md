@@ -7,11 +7,11 @@
 - [Leer Stream](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java/src/creacion/LanzadorStreamSalida.java) Lee el stream de salida del proceso.
 
 **Actividad:** Crea un programa que admita argumentos desde el main y devuelva con  ```System.exit()``` los siguientes valores:
-- Número de argumentos es menor que 1 debe devolver 1.
-- El argumento es una cadena debe devolver 2.
-- El argumentos es un número entero menor que 0 debe devolver 3.
+- Sí el número de argumentos es menor que 1 debe devolver 1.
+- Si el argumento es una cadena debe devolver 2.
+- Sí el argumento es un número entero menor que 0 debe devolver 3.
 - En cualquier otra situación debe devolver 0.
 	
-**Actividad:** Crea un progrma que ejecute al anterior. Deberá mostrar en pantalla lo que pasa dependiendo del valor devuelto al ejecutar el programa anterior.	
+**Actividad:** Crea un programa que ejecute al anterior. Deberá mostrar en pantalla lo que pasa dependiendo del valor devuelto al ejecutar el programa anterior.	
 
 - [Error Stream]().
