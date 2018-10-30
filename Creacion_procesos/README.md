@@ -1,10 +1,10 @@
 # Manejo de procesos con Java
 
-- [Ejecutar una aplicación](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java/src/creacion/ejecutarApp.java)
-- [Lanzar un proceso-aplicación](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java/src/creacion/lanzadorProceso.java)
-- [Sumar](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java/src/creacion/Sumador.java) Clase para sumar valores enteros consecutivos.
-- [Lanzador](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java/src/creacion/Lanzador.java) Se ejecuta un proceso que utiliza la clase anterior.
-- [Leer Stream](https://github.com/franlu/DAM-PSP/tree/master/Procesos_Java/src/creacion/LanzadorStreamSalida.java) Lee el stream de salida del proceso.
+- [Ejecutar una aplicación](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/ejecutarApp.java)
+- [Lanzar un proceso-aplicación](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/lanzadorProceso.java)
+- [Sumar](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/Sumador.java) Clase para sumar valores enteros consecutivos.
+- [Lanzador](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/Lanzador.java) Se ejecuta un proceso que utiliza la clase anterior.
+- [Leer Stream](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/LanzadorStreamSalida.java) Lee el stream de salida del proceso.
 
 **Actividad:** Crea un programa que admita argumentos desde el main y devuelva con  ```System.exit()``` los siguientes valores:
 - Sí el número de argumentos es menor que 1 debe devolver 1.
