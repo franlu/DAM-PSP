@@ -22,7 +22,7 @@ public class Lanzador {
 	    Lanzador l=new Lanzador();
 	    l.lanzarSumador(1, 51);
 	    l.lanzarSumador(51, 100);
-	    System.out.println("Sumas realizadas con éxito");
+	    System.out.println("Sumas realizadas con Ã©xito");
 	}
 
 }
