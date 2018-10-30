@@ -12,6 +12,6 @@
 - Sí el argumento es un número entero menor que 0 debe devolver 3.
 - En cualquier otra situación debe devolver 0.
 	
-**Actividad:** Crea un programa que ejecute al anterior. Deberá mostrar en pantalla lo que pasa dependiendo del valor devuelto al ejecutar el programa anterior.	
+A continuación, crea otro programa que ejecute al anterior. Deberá mostrar en pantalla lo que pasa dependiendo del valor devuelto al ejecutar el programa anterior.	
 
 - [Error Stream]().
