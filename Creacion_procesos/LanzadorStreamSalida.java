@@ -1,6 +1,6 @@
-package creacion;
+package Creacion_procesos;
 
-public class Lanzador {
+public class LanzadorStreamSalida {
 
 	public void lanzarSumador(Integer n1, Integer n2){
 	    String clase="com.creacion.Sumador";
@@ -47,7 +47,7 @@ public class Lanzador {
 	}
 	
 	public static void main(String[] args){
-	    Lanzador l=new Lanzador();
+	    LanzadorStreamSalida l=new LanzadorStreamSalida();
 	    l.lanzarSumador(1, 51);
 	    l.lanzarSumador(51, 100);
 	    System.out.println("Sumas realizadas con éxito");
