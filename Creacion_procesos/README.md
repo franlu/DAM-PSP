@@ -14,4 +14,8 @@
 	
 A continuación, crea otro programa que ejecute al anterior. Deberá mostrar en pantalla lo que pasa dependiendo del valor devuelto al ejecutar el programa anterior.	
 
+**Actividad:** Crea un programa en Java que visualice 5 veces la cadena que se le envía desde los argumentos de ```main()```. Si no se le envia ninguna cadena que muestre un mensaje indicándolo y que finalice le programa con ```System.exit(1)```.
+A continuación, crea un segundo programa Java que introduzca por teclado una cadena y ejecute el programa anterior para visualizar 5 veces esa cadena.
+
+
 - [Error Stream]().
