@@ -1,4 +1,4 @@
-package Creacion_procesos;
+package creacion_procesos;
 
 public class lanzadorProceso {
 

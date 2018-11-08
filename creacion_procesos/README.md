@@ -17,5 +17,14 @@ A continuación, crea otro programa que ejecute al anterior. Deberá mostrar en 
 **Actividad:** Crea un programa en Java que visualice 5 veces la cadena que se le envía desde los argumentos de ```main()```. Si no se le envia ninguna cadena que muestre un mensaje indicándolo y que finalice le programa con ```System.exit(1)```.
 A continuación, crea un segundo programa Java que introduzca por teclado una cadena y ejecute el programa anterior para visualizar 5 veces esa cadena.
 
+#### Enviar datos al stream de entrada del proceso
 
-- [Error Stream]().
+- [Enviar datos](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/EnviarDatos.java).
+
+#### Redireccionando la salida
+
+- [Redireccionar](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/RedirecionarSalida.java).
+
+**Actividad:** Escribe un programa que lea cadenas desde la entrada estándar hasta escribir un ```*```. Escribe otro programa que ejecute el anterior.
+
+Modifica el programa anterior para que al ejecutar el programa la entrada al proceso se obtenga a partir de un fichero de texto.

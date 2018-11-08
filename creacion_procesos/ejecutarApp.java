@@ -2,7 +2,7 @@
  * Process & ProcessBuilder
  * Ejecutar una aplicación del S.O.
  */
-package Creacion_procesos;
+package creacion_procesos;
 
 /**
  * @author franlu
