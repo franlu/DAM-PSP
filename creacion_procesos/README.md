@@ -23,7 +23,7 @@ A continuación, crea un segundo programa Java que introduzca por teclado una ca
 
 #### Redireccionando la salida
 
-- [Redireccionar](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/RedirecionarSalida.java).
+- [Redireccionar](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/RedireccionarSalida.java)
 
 **Actividad:** Escribe un programa que lea cadenas desde la entrada estándar hasta escribir un ```*```. Escribe otro programa que ejecute el anterior.
 
