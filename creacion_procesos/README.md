@@ -1,10 +1,10 @@
 # Manejo de procesos con Java
 
-- [Ejecutar una aplicación](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/ejecutarApp.java)
-- [Lanzar un proceso-aplicación](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/lanzadorProceso.java)
-- [Sumar](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/Sumador.java) Clase para sumar valores enteros consecutivos.
-- [Lanzador](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/Lanzador.java) Se ejecuta un proceso que utiliza la clase anterior.
-- [Leer Stream](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/LanzadorStreamSalida.java) Lee el stream de salida del proceso.
+- [Ejecutar una aplicación](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/ejecutarApp.java)
+- [Lanzar un proceso-aplicación](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/lanzadorProceso.java)
+- [Sumar](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/Sumador.java) Clase para sumar valores enteros consecutivos.
+- [Lanzador](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/Lanzador.java) Se ejecuta un proceso que utiliza la clase anterior.
+- [Leer Stream](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/LanzadorStreamSalida.java) Lee el stream de salida del proceso.
 
 **Actividad:** Crea un programa que admita argumentos desde el main y devuelva con  ```System.exit()``` los siguientes valores:
 - Sí el número de argumentos es menor que 1 debe devolver 1.
@@ -19,11 +19,11 @@ A continuación, crea un segundo programa Java que introduzca por teclado una ca
 
 #### Enviar datos al stream de entrada del proceso
 
-- [Enviar datos](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/EnviarDatos.java).
+- [Enviar datos](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/EnviarDatos.java).
 
 #### Redireccionando la salida
 
-- [Redireccionar](https://github.com/franlu/DAM-PSP/blob/master/Creacion_procesos/RedirecionarSalida.java).
+- [Redireccionar](https://github.com/franlu/DAM-PSP/blob/master/creacion_procesos/RedirecionarSalida.java).
 
 **Actividad:** Escribe un programa que lea cadenas desde la entrada estándar hasta escribir un ```*```. Escribe otro programa que ejecute el anterior.
 
