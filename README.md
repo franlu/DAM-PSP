@@ -7,7 +7,8 @@ Materiales para el módulo Programación de Servicios y Procesos
 * [Control de procesos](https://github.com/franlu/DAM-PSP/tree/master/Control_procesos)
 
 ## Java
-* [Procesos](https://github.com/franlu/DAM-PSP/tree/master/Creacion_procesos)
+* [Procesos](https://github.com/franlu/DAM-PSP/tree/master/creacion_procesos)
+* [Hilos](https://github.com/franlu/DAM-PSP/tree/master/hilos)
 
 
 # Licencia
