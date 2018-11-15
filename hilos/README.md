@@ -2,7 +2,7 @@
 
 **Definición:** Un hilo es una secuencia de código en ejecución dentro del contexto de un proceso. Los hilos no pueden ejecutarse ellos solos, necesitan la supervisión de un proceso padre para ejecutarse. Dentro de cada proceso hay varios hilos ejecutandose.
 
-####### Thread
+#### Thread
 
 - [Hilo0](https://github.com/franlu/DAM-PSP/blob/master/hilos/hilo0Thread.java)
 - [Mi primer hilo](https://github.com/franlu/DAM-PSP/blob/master/hilos/hiloThread.java)
@@ -10,7 +10,7 @@
 - [Métodos](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo2Thread.java)
 - [Grupos de hilos](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo3Thread.java)
 
-####### Runnable
+#### Runnable
 
 - [Hola Runnable](https://github.com/franlu/DAM-PSP/blob/master/hilos/hilo4Runnable.java)
 
