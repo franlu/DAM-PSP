@@ -1,10 +1,10 @@
 package hilos;
 
-public class hiloThread extends Thread{
+public class HiloThread extends Thread{
 	
 	private int x;
 
-	hiloThread(int x) {
+	HiloThread(int x) {
 		this.x = x;
 	}
 
@@ -14,7 +14,7 @@ public class hiloThread extends Thread{
 	}
 
 	public static void main(String[] args) {
-		hiloThread p = new hiloThread(5);
+		HiloThread p = new HiloThread(5);
 		p.start();
 	}// main
 }
