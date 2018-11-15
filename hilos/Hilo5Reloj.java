@@ -5,7 +5,7 @@ import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-//@SuppressWarnings("serial")
+@SuppressWarnings("serial")
 public class Hilo5Reloj extends Applet implements Runnable {
 	
 	private Thread hilo = null; //hilo
