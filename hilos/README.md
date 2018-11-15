@@ -4,15 +4,17 @@
 
 #### Thread
 
-- [Hilo0](https://github.com/franlu/DAM-PSP/blob/master/hilos/hilo0Thread.java)
-- [Mi primer hilo](https://github.com/franlu/DAM-PSP/blob/master/hilos/hiloThread.java)
+- [Hilo0](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo0Thread.java)
+- [Mi primer hilo](https://github.com/franlu/DAM-PSP/blob/master/hilos/HiloThread.java)
 - [Mi segundo hilo](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo1Thread.java)
 - [Métodos](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo2Thread.java)
 - [Grupos de hilos](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo3Thread.java)
 
 #### Runnable
 
-- [Hola Runnable](https://github.com/franlu/DAM-PSP/blob/master/hilos/hilo4Runnable.java)
+- [Hola Runnable](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo4Runnable.java)
+- [Reloj](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo5Reloj.java)
+- [Contador](https://github.com/franlu/DAM-PSP/blob/master/hilos/Hilo6Applet.java)
 
 ### Ejercicios Thread
 
