@@ -3,7 +3,8 @@ package hilos;
 public class Hilo2Thread extends Thread{
 	
 		
-  public void run() {
+  @SuppressWarnings("static-access")
+public void run() {
      System.out.println(
   	   "Dentro del Hilo  : " + Thread.currentThread().getName() + 
  	   "\n\tPrioridad    : " + Thread.currentThread().getPriority() + 
