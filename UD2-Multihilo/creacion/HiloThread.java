@@ -1,4 +1,4 @@
-package hilos;
+package creacion;
 
 public class HiloThread extends Thread{
 	

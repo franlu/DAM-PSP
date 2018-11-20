@@ -1,4 +1,4 @@
-package hilos;
+package creacion;
 
 // Grupo de hilos
 public class Hilo3Thread extends Thread {

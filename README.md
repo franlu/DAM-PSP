@@ -8,7 +8,7 @@ Materiales para el módulo Programación de Servicios y Procesos
 
 ## Java
 * [Procesos](https://github.com/franlu/DAM-PSP/tree/master/UD1-MultiProceso)
-* [Hilos](https://github.com/franlu/DAM-PSP/tree/master/UD2-Multihilo/hilos)
+* [Hilos](UD2-Multihilo)
 
 
 # Licencia

@@ -1,20 +1,20 @@
-# Gestión de Hilos
+# Clases para la creación de Hilos
 
 **Definición:** Un hilo es una secuencia de código en ejecución dentro del contexto de un proceso. Los hilos no pueden ejecutarse ellos solos, necesitan la supervisión de un proceso padre para ejecutarse. Dentro de cada proceso hay varios hilos ejecutandose.
 
 #### Thread
 
-- [Hilo0](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/Hilo0Thread.java)
-- [Mi primer hilo](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/HiloThread.java)
-- [Mi segundo hilo](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/Hilo1Thread.java)
-- [Métodos](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/Hilo2Thread.java)
-- [Grupos de hilos](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/Hilo3Thread.java)
+- [Hilo0](Hilo0Thread.java)
+- [Mi primer hilo](HiloThread.java)
+- [Mi segundo hilo](Hilo1Thread.java)
+- [Métodos](Hilo2Thread.java)
+- [Grupos de hilos](Hilo3Thread.java)
 
 #### Runnable
 
-- [Hola Runnable](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/Hilo4Runnable.java)
-- [Reloj](https://github.com/franlu/DAM-PSP/blob/master/hilos/UD2-Multihilo/Hilo5Reloj.java)
-- [Contador](https://github.com/franlu/DAM-PSP/blob/master/UD2-Multihilo/hilos/Hilo6Applet.java)
+- [Hola Runnable](Hilo4Runnable.java)
+- [Reloj](Hilo5Reloj.java)
+- [Contador](Hilo6Applet.java)
 
 ### Ejercicios Thread
 

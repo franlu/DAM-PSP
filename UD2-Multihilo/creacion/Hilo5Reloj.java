@@ -1,4 +1,4 @@
-package hilos;
+package creacion;
 
 import java.applet.*;
 import java.awt.*;
