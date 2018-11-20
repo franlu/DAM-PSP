@@ -10,9 +10,7 @@
 	- Llamada al método ```suspend()```. No se volverá ejecutable hasta que reciba el mensaje ```resume()```.
 	
 	
-Ejemplo _DEAD_
-
-[HiloDead](HiloDead.java)
+Ejemplo: _[HiloDead](HiloDead.java)_
 
 
 El método ``getState()`` devuelve una constante con el estado del hilo:
