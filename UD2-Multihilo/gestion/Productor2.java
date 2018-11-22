@@ -1,16 +1,16 @@
-package Productor_Consumidor_3;
-public class Productor extends Thread {
+package gestion;
+public class Productor2 extends Thread {
     private Cola cola;
     private int n;
 
-    public Productor(Cola c, int n) {
+    public Productor2(Cola c, int n) {
         cola = c;
         this.n = n;
     }
 
     public void run() {
         for (int i = 0; i < 5; i++) {
-            cola.put(i); //pone el número
+            cola.put(i); //pone el nÃºmero
         
             try {
                 sleep(100);

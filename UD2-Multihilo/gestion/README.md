@@ -1,7 +1,7 @@
 # Gestión de hilos
 
 
-El método ```isAlive()``` devuelve _true_ si el hilo esta vivo, es decir a llamado a su método run() y aún no ha terminado su ejecución.
+El método ```isAlive()``` devuelve _true_ si el hilo esta vivo, es decir a llamado a su método ```run()``` y aún no ha terminado su ejecución.
 En caso contrario devuelve _false_.
 
 ### Parada segura
@@ -27,7 +27,7 @@ MAX_PRIORITY = 10
 ```
 El hilo de mayor prioridad sigue funcionando hasta que:
 
-	- Cede el control al método ```yield()```.
+	- Cede el control al método ```yield()```
 	- Deja de ser ejecutable(Dead o Bloked)
 	- Un hilo de mayor prioridad pasa a estado ejecutable.
 
