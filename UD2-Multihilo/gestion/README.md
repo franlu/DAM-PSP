@@ -27,7 +27,7 @@ MAX_PRIORITY = 10
 ```
 El hilo de mayor prioridad sigue funcionando hasta que:
 
-	- Cede el control al método ```yield()```
+	- Cede el control al método yield()
 	- Deja de ser ejecutable(Dead o Bloked)
 	- Un hilo de mayor prioridad pasa a estado ejecutable.
 
