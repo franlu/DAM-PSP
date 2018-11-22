@@ -10,7 +10,7 @@ public class Productor extends Thread {
 
     public void run() {
         for (int i = 0; i < 5; i++) {
-            cola.put(i); //pone el n�mero
+            cola.put(i); //pone el número
             System.out.println(i + "=>Productor : " + n
                                + ", produce: " + i);
             try {
