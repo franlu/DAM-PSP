@@ -57,11 +57,11 @@ Se debe evitar la sincronización de bloques de código y sustituirlas siempre q
 
 No es posible invocar dos métodos sincronizados del mismo objeto a la vez.
 
-La sincronización disminuye el rendimiento de una aplicacióna, por lo tanto, debe emplearse
+La sincronización disminuye el rendimiento de una aplicación, por lo tanto, debe emplearse
 donde es **estrictamente necesario**.
 
 - [Cuenta](HiloSyncronized1.java)
-- [Cuenta sincronizada](HiloSyncronized1.java)
+- [Cuenta sincronizada](HiloSyncronized2.java)
 
 #### Bloqueo
 

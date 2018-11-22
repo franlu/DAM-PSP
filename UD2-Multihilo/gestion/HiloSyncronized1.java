@@ -44,7 +44,7 @@ class SacarDinero extends Thread {
 	}// run	
 }
 
-public class HiloSincronized1 {
+public class HiloSyncronized1 {
 	public static void main(String[] args) {
 		Cuenta c = new Cuenta(40);
 		SacarDinero h1 = new SacarDinero("Ana", c);
